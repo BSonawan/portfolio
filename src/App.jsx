@@ -81,7 +81,7 @@ function About() {
             </a>
             <p id="about-details">
   Hi, I'm <strong>{personal.name}</strong>, an MCA student at {personal.college}
-  with a strong interest in Java development, machine learning, and full-stack
+   with a strong interest in Java development, machine learning, and full-stack
   application development.
 </p>
 

@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { navItems, personal } from "../data/portfolio";
+import { useEffect, useState } from "react";
+import { navItems } from "../data/portfolio";
 
 export default function Navbar() {
   const [active, setActive] = useState("home");
@@ -41,9 +41,14 @@ export default function Navbar() {
             </a>
           ))}
         </div>
-        <a className="nav-resume" href="/Bhavesh-Sonawane-Resume.pdf" download>
-          Resume
-        </a>
+       <a
+  className="nav-resume"
+  href="/Bhavesh-Sonawane-Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Resume
+</a>
       </nav>
     </motion.header>
   );
